@@ -5,22 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="A layout example that shows off a responsive product landing page.">
 
-    <title>Creighton ModelUN and IRC</title>
+    <title> Creighton ModelUN and IRC</title>
 
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-
-<!--[if lte IE 8]>
-
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
-
-<![endif]-->
-<!--[if gt IE 8]><!-->
 
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 
 <!--<![endif]-->
-
+<!--
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+-->
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
@@ -29,13 +24,7 @@
         <link rel="stylesheet" href="css/layouts/marketing.css">
     <!--<![endif]-->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="carousel.js"> </script>
 
 
 
@@ -51,7 +40,7 @@
         <a class="pure-menu-heading" href="">Creighton's MUN & IRC</a>
 
         <ul class="pure-menu-list">
-            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link"> Home</a></li>
             <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
             <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Up</a></li>
         </ul>
@@ -66,19 +55,44 @@
           We also hold culture events and weekly meetings to discuss international politics.
           Feel free to join us if you have an interest in these things.
         </p>
+        <!--
         <p>
             <a href="http://purecss.io" class="pure-button pure-button-primary">Get Started</a>
         </p>
+        -->
     </div>
 </div>
 
 
--second part
+<!--Part 2-->
+
+
+<!-- Part Three-->
+<div id="owl-demo">
+
+  <div class="item"><img src="img/melbourne.jpeg" alt="Melbourne" width="460" height="345">
+  </div>
+  <div class="item"><img src="img/vancouver.jpg" alt="Vancouver" width="460" height="345">
+  </div>
+  <div class="item"><img src="img/singapore.jpg" alt="Singapore" width="460" height="345">
+  </div>
+  <div class="item"><img src="img/brussels.jpg" alt="Brussels" width="460" height="345">
+  </div>
+  <div class="item"><img src="img/seoul.jpg" alt="Seoul" width="460" height="345">
+  </div>
+  <div class="item"><img src="img/chicago.jpg" alt="Chicago" width="460" height="345">
+  </div>
+  <div class="item"><img src="assets/owl7.jpg" alt="Owl Image"></div>
+  <div class="item"><img src="assets/owl8.jpg" alt="Owl Image"></div>
+
+</div>
+<!--
 <div class="content-wrapper">
   <div class="content">
     <h2 class="content-head is-center">The adventures we've had.</h2>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
+      <!--
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -86,37 +100,39 @@
         <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <!-- Wrapper for slides -->
+      <!--
       <div class="carousel-inner" role="listbox">
         <div class="item active">
           <h3><b>Melbourne</b>, Australia 2012</h3>
-          <img class="pure-img-responsive"src="img/melbourne.jpeg" alt="Melbourne">
+          <img src="img/melbourne.jpeg" alt="Melbourne" width="460" height="345">
         </div>
 
         <div class="item">
           <h3><b>Vancouver</b>, Canada 2010</h3>
-          <img class="pure-img-responsive" src="img/vancouver.jpg" alt="Vancouver">
+          <img src="img/vancouver.jpg" alt="Vancouver" width="460" height="345">
         </div>
 
         <div class="item">
           <h3><b>Singapore 2011</b></h3>
-          <img class="pure-img-responsive"src="img/singapore.jpg" alt="Singapore">
+          <img src="img/singapore.jpg" alt="Singapore" width="460" height="345">
         </div>
 
         <div class="item">
           <h3><b>Brussels</b>, Belgium 2014</h3>
-          <img class="pure-img-responsive" src="img/brussels.jpg" alt="Brussels">
+          <img src="img/brussels.jpg" alt="Brussels" width="460" height="345">
         </div>
         <div class="item">
           <h3><b>Seoul</b>, South Korea 2015</h3>
-          <img class="pure-img-responsive" src="img/seoul.jpg" alt="Seoul">
+          <img src="img/seoul.jpg" alt="Seoul" width="460" height="345">
         </div>
         <div class="item">
           <h3><b>Chicago</b>, USA</h3>
-          <img class="pure-img-responsive" src="img/chicago.jpg" alt="Chicago">
+          <img src="img/chicago.jpg" alt="Chicago" width="460" height="345">
         </div>
       </div>
 
       <!-- Left and right controls -->
+      <!--
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -127,70 +143,58 @@
         </a>
       </div>
 
-      <!--wait
-wait
-wait
--->
+
+
+ <!-- Part Four -->
+    <div class="ribbon l-box-lrg pure-g">
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-
                 <h3 class="content-subhead">
-                    <i class="fa fa-rocket"></i>
-                    Get Started Quickly
+                  <i class="fa fa-users"></i>
+                    Current Members
                 </h3>
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                Learn about some of our current members. There are a wide range of majors and personalities
+                that fit together perfectly in the amazing organization.
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
-                    <i class="fa fa-mobile"></i>
-                    Responsive Layouts
+                  <i class="fa fa-globe"></i>
+                    Committies
                 </h3>
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                  Check out some of the many committies we have participated in. Representing countries from around the world
+                  and expanding our knowledge.
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
-                    <i class="fa fa-th-large"></i>
-                    Modular
+                  <i class="fa fa-glass"></i>
+                    Events
                 </h3>
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                </p>
+                    We have hosted some spectacular on campus and off campus events!
+                    Starting with meeting the UN representitive from Thailand, to getting exotic
+                    dinners, our club enjoys each other on and off campus.
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
                     <i class="fa fa-check-square-o"></i>
-                    Plays Nice
+                    Next Year
                 </h3>
                 <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    Check out who we are representing next year!
+                    Find out who will be competing in AMUN and the steps we take to dominate!
                 </p>
             </div>
         </div>
     </div>
 
-    <div class="ribbon l-box-lrg pure-g">
-        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/common/file-icons.png">
-        </div>
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
 
-            <h2 class="content-head content-head-ribbon">Laboris nisi ut aliquip.</h2>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor.
-            </p>
-        </div>
-    </div>
-
+  <!-- Part Five -->
     <div class="content">
-        <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
+        <h2 class="content-head is-center">Interested? Join Us!</h2>
 
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
@@ -200,33 +204,31 @@ wait
                         <label for="name">Your Name</label>
                         <input id="name" type="text" placeholder="Your Name">
 
+                        <label for="netID">Net ID</label>
+                        <input id="netID" type="text" placeholder="Your Net ID">
 
                         <label for="email">Your Email</label>
                         <input id="email" type="email" placeholder="Your Email">
                         <button type="submit" class="pure-button">Sign Up</button>
+
+
                     </fieldset>
                 </form>
             </div>
+          </div>
 
-            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                <h4>Contact Us</h4>
-                <p>
-                    Please feel free to contact any of our executive team! </br>
-                    President:</p>
-                    <a href="mail to: nev83583@creighton.edu">Nicole Vazquez-Chanlatte</a> </br>
-                <p>
-                  Vice President: </p>
-                  <a href="mail to: SamanthaLauber@creighton.edu">Sammi Lauber</a> </br>
-                <p>
-                  Secretary: </p>
-                  <a href="mail to: EmilyCarvalho@creighton.edu">Emily Carvalho</a> </br>
-                  <p>
-                    Campus Coordinator: </p>
-                    <a href="mail to: KimberlySorensen@creighton.edu">Kim Sorensen</a> </br>
+
+            <div class="ribbon l-box-lrg pure-u-1 pure-u-md-3-6">
+              <h2 class="content-head is-center">Contact Us</h2>
+                <div class= "content is-center">
+                <i class="fa fa-facebook-square  fa-5x"></i>
+                <i class="fa fa-envelope-o fa-5x"></i>
+                <i class="fa fa-twitter-square fa-5x"></i>
+              </div>
+
             </div>
         </div>
 
-    </div>
 
     <div class="footer l-box is-center">
         Creighton University sponsored organization. 2500 California Plaza, Omaha, NE 68170
@@ -235,9 +237,20 @@ wait
 </div>
 
 
-
-
-
-
 </body>
 </html>
+<!--
+<p>
+    Please feel free to contact any of our executive team! </br>
+    President:</p>
+    <a href="mail to: nev83583@creighton.edu">Nicole Vazquez-Chanlatte</a> </br>
+<p>
+  Vice President: </p>
+  <a href="mail to: SamanthaLauber@creighton.edu">Sammi Lauber</a> </br>
+<p>
+  Secretary: </p>
+  <a href="mail to: EmilyCarvalho@creighton.edu">Emily Carvalho</a> </br>
+  <p>
+    Campus Coordinator: </p>
+    <a href="mail to: KimberlySorensen@creighton.edu">Kim Sorensen</a> </br>
+  -->
