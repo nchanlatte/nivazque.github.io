@@ -156,7 +156,37 @@ a.pure-button-primary {
     left: 0;
     position: fixed !important;
 }
+.red-container {
+    background: #F00000;
+    z-index: 1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 100%;
+    height: 88%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+.orange-container {
+    background: #FFA500;
+    z-index: 1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 100%;
+    height: 88%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
 
+iframe {
+    margin: 1 auto;
+    position: relative;
+	  padding-bottom: 56.25%;
+	  padding-top: 25px;
+    width: 100%;
+	  height: 100%;
+}
 .splash {
     /* absolute center .splash within .splash-container */
     width: 70%;
